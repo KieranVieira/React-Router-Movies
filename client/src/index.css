@@ -42,10 +42,15 @@ body {
 
 .saved-movie {
   margin: 0 10px;
+  color: black;
+  border: 1px solid black;
+  padding: 5px 10px;
+  text-decoration: none;
 }
 .saved-active {
-  color: blue;
-  border: 1px solid grey;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
   padding: 5px;
 }
 .save-wrapper {
@@ -69,4 +74,9 @@ body {
 .home-button {
   padding: 5px 10px;
   background-color: lightskyblue;
+}
+
+.movie-list a{
+  color:black;
+  text-decoration: none;
 }
